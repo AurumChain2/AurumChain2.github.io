@@ -1,0 +1,21 @@
+# AurumChain2
+
+AurumChain2 — Crypto & blockchain investments.
+
+This repository hosts the website for AurumChain2. It showcases portfolio projects, research, and contact information for partnership and advisory inquiries.
+
+## Pages
+- Home: Overview, investment philosophy, and contact (`index.html`)
+- Portfolio: Selected investments and project summaries (`portfolio.html`)
+- Contact: Email and partnership instructions (section on `index.html`)
+
+## How to update the site
+- Edit any of the HTML files (index.html, portfolio.html, styles.css) and push changes to the `main` branch to update the live site.
+- To add a new project, edit `portfolio.html` and add another `.card` entry in the `#projects` section.
+- Replace `contact@example.com` with your real contact email before publishing publicly.
+
+## Contact
+Email: contact@example.com
+
+## License
+This site content is © AurumChain2. Replace with your preferred license if desired.
