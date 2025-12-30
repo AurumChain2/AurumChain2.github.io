@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AurumChain2 — Portfolio</title>
+  <meta name="description" content="Portfolio — AurumChain2 investments and project highlights.">
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* small page-specific tweaks */
+    .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); margin-top:12px; }
+    .card { background: rgba(255,255,255,0.02); padding:16px; border-radius:8px; }
+    .card h3 { margin: 0 0 8px 0; color: var(--accent); }
+    .meta { color: var(--muted); font-size: 0.9rem; margin-bottom:8px; }
+    .btn { color: var(--text); background: linear-gradient(90deg,var(--accent),#60a5fa); padding:8px 12px; border-radius:6px; text-decoration:none; display:inline-block; margin-top:8px; }
+    nav a{ color:var(--muted); text-decoration:none; margin-right:12px;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AurumChain2 — Portfolio</h1>
+    <p class="tagline">Selected investments and project highlights</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro">
+      <p>Below are selected projects and investments. For a private portfolio briefing or details, please contact us at <a href="mailto:contact@example.com">contact@example.com</a>.</p>
+    </section>
+
+    <section id="projects" class="grid">
+      <!-- Example project card 1 -->
+      <article class="card">
+        <h3>Project Alpha</h3>
+        <div class="meta">Sector: Layer-2 · Stage: Seed</div>
+        <p>Lightweight rollup designed for low-cost transactions and high throughput. We provided strategic capital and tokenomics guidance.</p>
+        <a class="btn" href="#" target="_blank" rel="noopener">More</a>
+      </article>
+
+      <!-- Example project card 2 -->
+      <article class="card">
+        <h3>DeFi Toolkit</h3>
+        <div class="meta">Sector: DeFi · Stage: Growth</div>
+        <p>Modular tooling for on-chain composability and liquidity routing. We supported technical integrations and partnerships.</p>
+        <a class="btn" href="#" target="_blank" rel="noopener">More</a>
+      </article>
+
+      <!-- Example project card 3 -->
+      <article class="card">
+        <h3>Infra Node</h3>
+        <div class="meta">Sector: Infrastructure · Stage: Series A</div>
+        <p>Decentralized node infrastructure with SLA-backed services for validators and enterprises. We assisted with fundraising and GTM strategy.</p>
+        <a class="btn" href="#" target="_blank" rel="noopener">More</a>
+      </article>
+    </section>
+
+    <section id="notes" style="margin-top:18px;">
+      <h2>Notes</h2>
+      <p>Public summaries are intentionally concise. For detailed term sheets, performance metrics, or partnership requests, contact us directly.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© AurumChain2</p>
+  </footer>
+</body>
+</html>
